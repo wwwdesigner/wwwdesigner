@@ -26,15 +26,28 @@ html.body {
 }
 
 body {
-    background-color: #010a00;
-    background-image: url("https://images.unsplash.com/photo-1504418682362-6ad6257cb2fb?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=");
+    background-color: black;
+    /*background-image: url("https://images.unsplash.com/photo-1504418682362-6ad6257cb2fb?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=");*/
     background-position: top;
+}
+img{
+    position: fixed;
+    left: 55%;
+    top: -30%;
+    transform: translate(-50%,50%);
+    width: 11%;
+    height: 52%;
 }
 
 h1 {
-    font-weight: 47 em ;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    position: fixed;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,50%);
+    width: 100%;
+    font-size: 70px;
 }
 
 .neon {
@@ -49,8 +62,32 @@ h1 {
     0 0 150px #0ff;
 }
 
+.neon_img {
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+#logo {
+    width: 5%;
+    position: relative;
+    z-index: +1;
+    margin-left: 4.375%;
+}
+
 h2 {
-    font-weight: 16 em ;
     text-align: center;
     font-family: 'Dancing Script', sans-serif;
+    position: fixed;
+    left: 50%;
+    top: 46%;
+    transform: translate(-50%,50%);
+    width: 100%;
+    font-size: 50px;
 }
