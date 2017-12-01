@@ -27,8 +27,7 @@ html.body {
 
 body {
     background-color: black;
-    /*background-image: url("https://images.unsplash.com/photo-1504418682362-6ad6257cb2fb?dpr=1&auto=compress,format&fit=crop&w=1350&h=&q=80&cs=tinysrgb&crop=");*/
-    background-position: top;
+
 }
 img{
     position: fixed;
@@ -62,12 +61,38 @@ h1 {
     0 0 150px #0ff;
 }
 
+#neon_list {
+    color: #fff;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.navList{
+    position: fixed;
+    left: 35%;
+    top: 75%;
+}
+
+#navlist li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 25px;
+    left: 40%;
+    font-size: 3em;
+}
+
 
 #logo {
     position: fixed;
     left: 95%;
     top: 40%;
-    transform: translate(-50%,50%);
+    transform: translate(-50%, 50%);
     width: 100%;
     color: #fff;
     text-shadow: 0 0 5px #fff,
