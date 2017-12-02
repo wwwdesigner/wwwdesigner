@@ -75,7 +75,7 @@ h1 {
 
 .navList{
     position: fixed;
-    left: 35%;
+    left: 39%;
     top: 75%;
 }
 
@@ -86,7 +86,6 @@ h1 {
     left: 40%;
     font-size: 3em;
 }
-
 
 #logo {
     position: fixed;
